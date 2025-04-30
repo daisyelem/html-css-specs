@@ -8,7 +8,7 @@
     <title>HTML and CSS Specs</title>
 </head>
 <body>
-    <header>
+    <header class="site-head">
         <!-- App Academy Tag -->
         <div>
             App Academy
@@ -16,7 +16,7 @@
         <!-- Sign In Button -->
         <button>Sign In</button>
         <!-- Nav Bar -->
-        <nav>
+        <nav class="header-nav">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">News</a></li>
@@ -26,20 +26,22 @@
         </nav>
     </header>
     <main>
-        <header>
+        <header class="page-head">
         <!-- Page Title -->
             <h1>Lorem Ipsum</h1>
         <!-- Author Name -->
             <h2>By Daisyelem</h2>
         <!-- Social Media Links -->
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-share-alt">Share</a>
+            <div class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-share-alt"> Share</a>
+            </div>
         </header>
         <!-- Main Image -->
-        <img src="" alt="Main Image">
+        <img src="https://placehold.co/600x250/white/red" alt="Main Image" class="main-image">
         <!-- Subtitle 1 -->
-        <section class="Main-Text">
+        <section class="main-text">
             <h3>The Lore:</h3>
                 <!-- Paragraph 1 -->
                 <p>
@@ -52,10 +54,11 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas molestias voluptatum quam, quis rem est eligendi illo, dicta ratione recusandae perferendis ab sequi inventore neque sint eius vel debitis.
                 </p>
         </section>
-        <section class="More-Info">
+        <section class="more-info">
             <!-- More Information -->
             <h3>More Information</h3>
             <!-- List 1 -->
+            <div class="iterative">
             <h4>Iterative</h4>
                 <ul>
                     <li><a href="#">The art of a for loop</a></li>
@@ -64,7 +67,9 @@
                     <li><a href="#">Loopception</a></li>
                     <li><a href="#">Arrays back in the day</a></li>
                 </ul>
+            </div>
             <!-- List 2 -->
+            <div class="recursive">
             <h4>Recursive</h4>
                 <ul>
                     <li><a href="#">To understand recursion</a></li>
@@ -73,6 +78,7 @@
                     <li><a href="#">Recursion, understand you must</a></li>
                     <li><a href="#">Base case and recursive steps</a></li>
                 </ul>
+            </div>
         </section>
     </main>
     <footer>

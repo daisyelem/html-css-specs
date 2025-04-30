@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    /* --main-color: #c00000;
+    --text-color: #333;
+    --background-color: #f4f4f4; */
+}
+
+body {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-head {
+    background-color:rebeccapurple;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.site-head div {
+    width: 50%;
+}
+
+.header-nav {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main {
+    width: 90%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.page-head {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem;
+}
+
+.page-head h1 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: lightblue;
+}
+
+.page-head h2 {
+    font-size: 0.75rem;
+    background-color: lightsalmon;
+    padding: 0.5rem;
+}
+
+.social-media {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    width: 9rem;
+    background-color: lightseagreen;
+}
+
+.fa {
+    padding: 0.6rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.fa-share-alt {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.main-image {
+    background-color: red;
+    width: 100%;
+    object-fit: cover;
+    padding: 0.5rem;
+}
+
+.main-text {
+    background-color: orange;
+    padding: 0.5rem;
+}
+
+.main-text p {
+    padding: 0 1rem;
+
+}
+
+.more-info {
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+
+.more-info h3 {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: lightcoral;
+}
+
+.iterative, .recursive {
+    background-color: lightgray;
+    padding: 0.5rem;
+    width: 45%;
+}
+
+.iterative ul, .recursive ul {
+    list-style-type: '- ';
+    list-style-position: inside;
+}
+
+footer {
+    background-color: purple;
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+.footer-nav {
+    width: 50%;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0.5rem;
+}
