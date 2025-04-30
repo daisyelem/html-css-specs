@@ -69,7 +69,7 @@ main {
 .page-head {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     padding: 0.5rem;
 }
@@ -79,11 +79,15 @@ main {
     width: 100%;
     text-align: center;
     padding: 0.5rem;
+    border-bottom: 2px black solid;
+    margin: 0 0 1rem 0;
+    
 }
 
 .page-head h2 {
     font-size: 0.75rem;
     padding: 0.5rem;
+    width: 25rem;
 }
 
 .social-media {
@@ -97,6 +101,8 @@ main {
     padding: 0.6rem;
     text-decoration: none;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
 
 .fa:hover {
@@ -122,6 +128,8 @@ main {
     width: 100%;
     object-fit: cover;
     padding: 0.5rem;
+    border-radius: 2rem;
+    opacity: 0.25;
 }
 
 .main-text {
