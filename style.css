@@ -144,23 +144,27 @@ main {
 .more-info {
     display: flex;
     flex-wrap: wrap;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     justify-content: space-around;
+    border: 2px black solid;
+    border-radius: 1rem;
 }
 
 .more-info h3 {
     width: 100%;
-    padding: 0.5rem;
 }
 
 .iterative, .recursive {
-    padding: 0.5rem;
     width: 45%;
 }
 
 .iterative ul, .recursive ul {
     list-style-type: '- ';
     list-style-position: inside;
+}
+
+.iterative  a, .recursive a {
+    color: blue;
 }
 
 footer {
