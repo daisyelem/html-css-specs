@@ -176,7 +176,8 @@ footer {
 }
 
 footer img {
-    padding: 0.5rem;
+    height: 2.75rem;
+    padding: 0 1rem;
 }
 
 .footer-nav {
